@@ -932,7 +932,7 @@
               "top": true,
               "bottom": false
             },
-            "lockLayout": true
+            "lockLayout": false
           }
         },
         "2": {
@@ -954,8 +954,7 @@
               "bottom": false
             },
             "vCenter": false,
-            "hCenter": false,
-            "lockLayout": true
+            "hCenter": false
           }
         },
         "3": {
@@ -1061,7 +1060,6 @@
       "version": "1.15.0",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 18px;\">﻿IDENTIFICACIÓN DE PALMAS EN CONTRIBUCIÓN AL ODS 12</strong></p>",
-        "placeholder": "<p><span style=\"font-size: 18px;\">Haga doble clic para editar el texto</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1541,8 +1539,8 @@
           "section": "section_2",
           "views": [
             "view_11",
-            "view_12",
-            "view_13"
+            "view_14",
+            "view_15"
           ]
         },
         "display": {
@@ -1662,8 +1660,8 @@
           "section": "section_2",
           "views": [
             "view_11",
-            "view_12",
-            "view_13"
+            "view_14",
+            "view_15"
           ]
         },
         "display": {
@@ -1865,7 +1863,6 @@
       "label": "Texto 2",
       "config": {
         "text": "<p style=\"text-align: center;\">Lina García</p><p style=\"text-align: center;\">Andres Hernandez</p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">Maestría En Ciencias de la Información y las Comunicaciones</p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">Universidad Distrital Francisco Jose de Caldas </p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2673,7 +2670,6 @@
       "label": "Texto 3",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; background-color: var(--light); color: var(--dark);\">﻿ÍNDICE DE EXCESO DE VERDE</strong></p>",
-        "placeholder": "<p style=\"text-align: center;\">Haga doble clic para editar texto</p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2821,7 +2817,6 @@
       "label": "Texto 4",
       "config": {
         "text": "<p style=\"text-align: justify;\"><span style=\"background-color: var(--light);\">Este índice muestra en valores altos con una mayor tonalidad de verde un alto contenido de clorofila lo que a menudo se relaciona con vegetación mas saludable.</span></p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2932,7 +2927,7 @@
       "page_1": []
     }
   ],
-  "timestamp": 1732514406421,
+  "timestamp": 1732518365127,
   "header": {
     "layout": {
       "LARGE": "layout_60"
@@ -2943,7 +2938,13 @@
   },
   "originExbVersion": "1.15.0",
   "attributes": {
-    "portalUrl": "https://udistritalfjc.maps.arcgis.com"
+    "portalUrl": "https://udistritalfjc.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Reto_desarrollador_Spatial_Dev_Team",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {},
@@ -2953,5 +2954,6 @@
       "small": null
     }
   },
-  "customTheme": {}
+  "customTheme": {},
+  "publishTimestamp": 1732545524016
 }
