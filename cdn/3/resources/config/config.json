@@ -905,6 +905,129 @@
       "order": [
         "0"
       ]
+    },
+    "layout_67": {
+      "type": "FIXED",
+      "order": [
+        "1",
+        "2",
+        "3"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_63",
+          "bbox": {
+            "left": "0.0%",
+            "right": "49.8%",
+            "top": "0.0%",
+            "bottom": "-0.0%",
+            "width": "50.2%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {
+            "left": "50.0%",
+            "right": "-0.2%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "50.2%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "bbox": {
+            "left": "33.1%",
+            "right": "32.9%",
+            "top": "3.5%",
+            "bottom": "92.6%",
+            "width": "34.0%",
+            "height": "3.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_68": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "bbox": {
+            "left": "15.9%",
+            "right": "16.3%",
+            "top": "80.3%",
+            "bottom": "10.9%",
+            "width": "67.8%",
+            "height": "8.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_69": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_70": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_71": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {},
+      "order": []
     }
   },
   "exbVersion": "1.15.0",
@@ -1313,7 +1436,8 @@
           "section": "section_2",
           "views": [
             "view_11",
-            "view_14"
+            "view_14",
+            "view_15"
           ]
         },
         "display": {
@@ -2417,6 +2541,293 @@
         "styleConfig": {}
       },
       "id": "widget_61"
+    },
+    "widget_63": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.15.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": false,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canOverviewMap": false,
+          "canLayers": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 36111.909643039246,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -8096989.436869254,
+              "y": 535868.057989268
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -8099038.90469015,
+            "ymin": 532777.135657987,
+            "xmax": -8094939.9690483585,
+            "ymax": 538958.980320549
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "layoutIndex": 1,
+        "initialMapDataSourceID": "dataSource_4",
+        "clientQueryDataSourceIds": []
+      },
+      "id": "widget_63",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_68"
+        }
+      },
+      "label": "Mapa 4",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget_64": {
+      "uri": "widgets/common/text/",
+      "version": "1.15.0",
+      "label": "Texto 3",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; background-color: var(--light); color: var(--dark);\">﻿ÍNDICE DE EXCESO DE VERDE</strong></p>",
+        "placeholder": "<p style=\"text-align: center;\">Haga doble clic para editar texto</p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "tooltip": {
+          "name": "",
+          "parts": [
+            {
+              "type": "STRING",
+              "exp": "\"\""
+            }
+          ]
+        }
+      },
+      "id": "widget_64"
+    },
+    "widget_65": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.15.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": false,
+          "canBaseMap": false,
+          "canMeasure": false,
+          "canOverviewMap": false,
+          "canLayers": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 18055.954821519623,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -19518931.959201396,
+              "y": -2405264.573472668
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -19519956.693111844,
+            "ymin": -2406810.0346383085,
+            "xmax": -19517907.225290947,
+            "ymax": -2403719.1123070274
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "layoutIndex": 1,
+        "initialMapDataSourceID": "dataSource_5",
+        "clientQueryDataSourceIds": []
+      },
+      "id": "widget_65",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_71"
+        }
+      },
+      "label": "Mapa 5",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5",
+          "mainDataSourceId": "dataSource_5"
+        }
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget_66": {
+      "uri": "widgets/common/text/",
+      "version": "1.15.0",
+      "label": "Texto 4",
+      "config": {
+        "text": "<p style=\"text-align: justify;\"><span style=\"background-color: var(--light);\">Este índice muestra en valores altos con una mayor tonalidad de verde un alto contenido de clorofila lo que a menudo se relaciona con vegetación mas saludable.</span></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_66"
     }
   },
   "widgetsManifest": {},
@@ -2444,6 +2855,18 @@
       "backgroundPosition": "stretch",
       "backgroundColor": "#f0f0f0",
       "backgroundIMage": {}
+    },
+    "view_15": {
+      "id": "view_15",
+      "layout": {
+        "LARGE": "layout_67",
+        "MEDIUM": "layout_69",
+        "SMALL": "layout_70"
+      },
+      "label": "Índices sobre las palmas detectadas",
+      "backgroundPosition": "stretch",
+      "backgroundColor": "#f0f0f0",
+      "backgroundIMage": {}
     }
   },
   "sections": {
@@ -2451,7 +2874,8 @@
       "id": "section_2",
       "views": [
         "view_11",
-        "view_14"
+        "view_14",
+        "view_15"
       ],
       "transition": {
         "type": "CUBE"
@@ -2486,6 +2910,20 @@
       "sourceLabel": "WEBMAP - PALM DETECTION USING DPLK MODELS_3",
       "itemId": "70b2b774e0ae4d36b7e3062ce575df1a",
       "portalUrl": "https://udistritalfjc.maps.arcgis.com"
+    },
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "WEB_MAP",
+      "sourceLabel": "WEBMAP - PALM DETECTION USING DPLK MODELS INDEX",
+      "itemId": "2e172e4562b1495fbbe873037ec9e11d",
+      "portalUrl": "https://udistritalfjc.maps.arcgis.com"
+    },
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "WEB_MAP",
+      "sourceLabel": "WEBMAP - PALM DETECTION USING DPLK MODELS_index2",
+      "itemId": "dfb58b6a3f184d109c12ee6d773d235c",
+      "portalUrl": "https://udistritalfjc.maps.arcgis.com"
     }
   },
   "messageConfigs": {},
@@ -2494,7 +2932,7 @@
       "page_1": []
     }
   ],
-  "timestamp": 1732508160594,
+  "timestamp": 1732514406421,
   "header": {
     "layout": {
       "LARGE": "layout_60"
